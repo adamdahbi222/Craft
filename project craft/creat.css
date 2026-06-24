@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Bungee&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Goblin+One&family=Libertinus+Keyboard&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+
+
+body{
+    background-color: #000000;
+}
+
+
+.nav-logo h1{
+    background: linear-gradient(90deg, #fff 0%, #7b6ef6 100%);
+    
+    letter-spacing: -0.03em;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip:text;
+font-family: "Arbutus", serif;
+    font-style: normal;
+
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0;
+
+
+   
+}
+.login button{
+    font-family: "Arbutus", serif;
+   color: #fff;
+     font-style: normal;
+     padding: 10px 26px;
+     border: 0;
+     border-radius: 10px;
+     background: linear-gradient(90deg, #7b6ef6 100%);
+
+    
+    
+ 
+ }
+ .login button a{
+    text-decoration: none;
+ }
+ .login  button:hover{
+    background: #fff;
+}
+.login a:hover{
+color: black;
+}
+.menu_principale{
+    background-color: #100f0f;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    
+}
+.nav-links {
+     display: flex; 
+    
+   gap: 12px;
+     list-style: none;
+ }
+ .nav-links a{
+    color: aliceblue;
+    padding: 10px 10px;
+    font-family: "Arbutus", serif;
+    font-size: 16px; 
+    font-style: normal;
+  justify-content: center;
+  margin-left: 30px;
+  font-style: normal;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+
+.nav-cta {
+  font-family: 'Syne', sans-serif;
+  font-size: 13px; font-weight: 700;
+  padding: 9px 22px;
+  background: var(--accent1);
+  color: #fff; 
+  border: none; 
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: #7b6ef6;
+  letter-spacing: 0.01em;
+
+}
+.chat_bot{
+    background-color: aliceblue;
+    width: 1600px;
+    justify-self: center;
+    margin-top: 40px;
+    height: 800px;
+border-radius: 20px;
+
+}
+.chat_bot_title {
+    background-color: #7b6ef6;
+   
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+    height: 90px;
+
+}
+.chat_bot_title h1{
+
+    padding: 20px 20px;
+    margin-top: 15px;
+    margin-left: 90px;
+    color: #fff;
+}
+.message_bienvenu_chat_bot h4{
+    color: #505050;
+    justify-self: center;
+    font-size: 19px;
+
+}
+.chat__footer{
+    margin-top: -70px;
+   justify-self: center;
+
+
+}
+.chat__footer input{
+    font-size: 30px;
+    padding: 10px 390px;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid #7b6ef6;
+    width: 500px;
+
+   
+  
+ 
+}
+.chat__footer button{
+    background-color: #7b6ef6;
+    border: #7b6ef6;
+    color: #fff;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.chat__footer :placeholder-shown{
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    margin-left: -30px;
+}
+
+
+

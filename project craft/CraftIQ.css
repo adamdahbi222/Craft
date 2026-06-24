@@ -1,0 +1,120 @@
+.menu{
+background-color: blue; 
+}
+.present_service{
+margin-left: 180px;
+
+}
+
+.present_service_genaral{
+    background: linear-gradient(to right, #0a66c2, #8f17f0);
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+   
+    margin-left: 60px;
+    
+}
+.present_service1 h1{
+    font-family: "Arbutus", serif;
+    margin-left: 50px;
+    top: -200px;
+
+
+
+}
+
+.present_service1 p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: -10px;
+}
+.Design{
+    
+    margin-left: 100px;
+   
+    margin-top: -320px;
+    border-radius: 20px;
+   
+}
+
+.Design1{
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+.Design1 img{
+  width: 300px;
+  border: 3px solid rgb(140, 140, 140);
+  border-radius: 20px;
+}
+.present_service12{
+    margin-left: 500px;
+    background: linear-gradient(to right, #0a66c2, #8f17f0);
+
+    width: 400px;
+    height: 450px;
+    margin-top: -390px;
+    border-radius: 30px;
+
+
+
+}
+
+.present_service2 h1{
+    font-family: "Arbutus", serif;
+    margin-left: 50px;
+   
+}
+.present_service2 p{
+    color: #fff;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-size: 19px;
+}
+.Design2{
+    margin-top: 28px;
+    margin-left: 49px;
+
+}
+.Design12 img{
+  width: 300px;
+  border: 3px solid rgb(140, 140, 140);
+  border-radius: 20px;
+
+}
+.present_service13{
+    margin-left: 440px;
+    background: linear-gradient(to right, #0a66c2, #8f17f0);
+align-items: center;
+
+
+    width: 400px;
+    height: 450px;
+    margin-top: -390px;
+    border-radius: 30px;
+}
+
+.present_service3 h1{
+    font-family: "Arbutus", serif;
+    margin-left: 50px;
+   
+}
+.present_service3 p{
+    color: #fff;
+    margin-left: 52px;
+    margin-top: -20px;
+    font-size: 19px;
+}
+.Design3{
+    margin-top: 28px;
+    margin-left: 49px;
+
+}
+.Design13 img{
+  width: 300px;
+  border: 3px solid rgb(140, 140, 140);
+  border-radius: 20px;
+
+}

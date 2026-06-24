@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+}
+
+.payment{
+    background: linear-gradient(90deg, #53a9fe, #7b6ef6);
+    width: 700px;
+    height: 800px;
+    margin-left: 200px;
+    margin-top: 130px;
+  border-radius: 10px;
+}
+.payment i{
+    background: linear-gradient(90deg, #fff 0%, #7b6ef6 100%);
+    font-size: 90px;
+   margin-left: 100px;
+   margin-top: 20px;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip:text;
+font-family: "Arbutus", serif;
+    font-style: normal;
+margin-top: 30px;
+  font-weight: 700;
+  font-style: normal;
+
+
+}
+.montant_payment{
+    background-color: #fff;
+  border-radius: 20px;
+
+  width: 400px;
+  height: 290px;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+.montant_payment h3{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 12px;
+    color: rgb(173, 173, 173);
+
+}
+.montant_payment h2{
+   margin-left: 30px;
+   font-size: 18px;
+}
+
+.montant_payment span{
+    margin-left: 90px;
+    color: #6e6e6e;
+}
+.montant_payment1{
+    color: rgb(173, 173, 173);
+    margin-left: 250px;
+    font-size: 30px;
+}
+.montant_payment1 button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 300px;
+  margin-left: -50px;
+ margin-top: -70px;
+    border-radius: 8px;
+    color: #fff;
+    height: 40px;
+ 
+ 
+
+}
+.inf_card{
+    background: #202035;
+    margin-left: 840px;
+    width: 700px;
+    height: 800px;
+    margin-top: -800px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.card{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.Name_on_Card{
+  color: #707070;
+  font-size: 23px;
+  letter-spacing: 3px;
+ display: grid;
+ justify-content: center;
+}
+.Name_on_Card input{
+    width: 340px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+}
+.Card_number{
+    color: #707070;
+    font-size: 23px;
+    letter-spacing: 3px;
+   display: grid;
+   justify-content: center;
+  }
+  .Card_number input{
+      width: 340px;
+      height: 30px;
+      border-radius: 8px;
+      border: none;
+      padding: 10px 20px;
+  }
+  .Expiry_date{
+    color: #707070;
+    font-size: 20px;
+    letter-spacing: 3px;
+   display: grid;
+  width: 160px;
+  margin-top: 22px;
+  margin-left: 163px;
+  }
+  .Expiry_date  input{
+width: 180px;
+height: 40px;
+border-radius: 8px;
+
+  }
+.security_code{
+    color: #707070;
+    font-size: 18px;
+    letter-spacing: 3px;
+   display: grid;
+  width: 160px;
+
+  margin-left: 363px;
+  margin-top: -67px;
+
+}
+
+.security_code input{
+    width: 180px;
+height: 40px;
+border-radius: 8px;
+}
+.pay{
+  margin-left: 200px;
+  margin-top: 80px;
+ 
+}
+.pay button{
+    width: 300px;
+    height: 40px;
+    font-weight: 300px;
+    background: linear-gradient(90deg, #53a9fe, #7b6ef6);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    
+}

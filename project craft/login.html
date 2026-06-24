@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftIQ</title>
+    <link rel="icon" type="image/png" href="Screenshot_2025-03-01_at_23.22.57-removebg-preview.png">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="neumorphic">
+        <div class="neumorphic-card">
+            <h1>Login</h1>
+            <input type="text" id="username" class="neumorphic_input" placeholder="Username">
+            <input type="password" id="password" class="neumorphic_input" placeholder="Password">
+
+            
+            <p class="error-message" id="error-message" style="display:none;">Veuillez remplir tous les champs.</p>
+            <p class="success-message" id="success-message" style="display:none;">Connexion réussie !</p>
+
+            <a href="logincreat.html">Create Account</a>
+            <br>
+            <button class="neumorphic_but" id="login-btn">Sign In</button>
+        </div>
+    </div>
+
+   
+
+    <script>
+        document.getElementById("login-btn").addEventListener("click", function () {
+            const username = document.getElementById("username").value.trim();
+            const password = document.getElementById("password").value.trim();
+
+            const errorMsg   = document.getElementById("error-message");
+            const successMsg = document.getElementById("success-message");
+
+           
+            if (!username || !password) {
+                errorMsg.textContent = "Veuillez remplir tous les champs.";
+                errorMsg.style.display = "block";
+                successMsg.style.display = "none";
+                return;
+            }
+
+           
+
+
+           
+           
+        });
+    </script>
+</body>
+</html>

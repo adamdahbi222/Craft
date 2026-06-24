@@ -1,0 +1,80 @@
+.neumorphic {
+    background: #e0e5ec;
+    border-radius: 20px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.neumorphic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    background: #e0e5ec;
+    background: #dddcdc;
+}
+
+
+.neumorphic_input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: #e0e5ec;
+  
+    outline: none;
+    
+    font-size: 16px;
+}
+
+
+
+
+.neumorphic-card a {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+.success-message {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+.error-message {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.neumorphic_but {
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(90deg, #53a9fe, #7b6ef6);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.neumorphic_but:hover {
+    box-shadow: inset 3px 3px 6px #a3b1c6, inset -3px -3px 6px #ffffff;
+}
+
+.neumorphic_but:active {
+    box-shadow: inset 5px 5px 10px #a3b1c6, inset -5px -5px 10px #ffffff;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
